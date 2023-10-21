@@ -34,11 +34,11 @@ const fetchweatherData=()=>{
       
       <br></br>
       <br></br>
-      <button id='butt' style={{ marginLeft:'1vw', fontSize:'15px'}} onClick={fetchweatherData}>Check:</button>
+      <button id='a' style={{ marginLeft:'1vw', fontSize:'15px'}} onClick={fetchweatherData}>Check:</button>
       <p>Temperature: {weatherData&&Math.floor(weatherData.main.temp-273.15)}C</p>
        <p> Humidty: {weatherData&&weatherData.main.humidity}%</p>
       <p>Wind Speed: {weatherData&&weatherData.wind.speed} M/H </p>
-      <button id='butt' style={{ marginLeft:'1vw', fontSize:'15px'}} onClick={fetchweatherData}>Check:</button>
+      <button id='b' style={{ marginLeft:'1vw', fontSize:'15px'}} onClick={fetchweatherData}>Check:</button>
     </div>
   )};
   
